@@ -163,3 +163,18 @@ body {
   /* padding: 0 2rem 2.5rem; */
   /* order: 100; */
 }
+
+input[type=checkbox] {
+  display: none;
+}
+
+.banner img {
+  /* margin: 100px; */
+  transition: transform 0.25s ease;
+  cursor: pointer;
+}
+
+input[type=checkbox]:checked ~ label > img {
+  transform: scale(2);
+  cursor: pointer;
+}
